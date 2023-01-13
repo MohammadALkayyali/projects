@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <style>
+    #header{
+    width: 100% ;
+        float: left;
+        
+    } 
+    
+    .subh1{
+        float: left;
+        width: 30%;
+    
+    }
+    .subh1 p{
+        text-align: right;
+            margin-top: 121px;
+        font-size: 18px;
+                MARGIN-RIGHT: 16PX;
+    }
+    .subh2{
+        width: 40%;
+    float: left;
+        margin-top: 93px;
+    }
+    .subh2 h1{
+        text-align: center;
+        color: rgb(136,174,19)
+    }
+ .menu{
+        width   :100%;
+         float:left;
+         padding :15px 0px; 
+     background: rgb(242,242,242);
+     
+    }
+    
+    .menue-item{
+font-family: cursive;
+        width   :calc(calc(100%/5) - 50px);
+        float:left;
+        
+       margin-right:50px;
+
+
+    }
+    .menue-item a{
+        color: black;
+        text-decoration: none;
+        
+        
+    }
+    .menue-item a:hover{
+        color: rgb(79,184,202);
+    }
+        .f2{width: 33%;
+        float: left;
+        }
+        .formls{width: 40%;float: left}
+        .f1{ width: 33.3%;float: left
+        }
+          footer{
+       
+    
+        width: 100%;
+        float:left;
+       background: rgb(242,242,242);
+    
+    }
+    
+          footer{
+       
+    
+        width: 100%;
+        float:left;
+       background-color:rgb(242,242,242);
+    
+    }
+    footer div{
+        width: 33%;
+        float: left;
+        text-align: center;
+        
+    }
+    
+
+    
+        form  label{font-size:30px; }
+        .formls  input{font-size:30px }
+    </style>
+    </head>
+    
+    <body >
+   <div id="header"> <div class="subh1"><img   src="imges/nad.jpeg" width="200" ></div> <div class="subh2"><h1> NADERH NUTRITION CLINIC </h1></div><div class="subh1"> <p> Call Now : +962 79 089 8575</p></div></div>
+<div class="menu">
+        <div class="menue-item"><a href="wep%20main.html">Home</a></div>
+     <div class="menue-item"><a href="book.html">Appointment Booking</a></div>
+    <div class="menue-item"><a href="updeat-date.html">Update your booking</a></div>
+    <div class="menue-item"><a href="delete-date.html">Delete your booking</a></div>
+    <div class="menue-item"><a href="show_my%20_reservation.html">Show My Reservation</a></div>
+   
+         
+   
+    </div>
+        <div id="header"> <div class="f2"></div>
+            <div class="formls" style="background-color: rgb(136,174,19);text-align: center; margin-left: 30%; "><div ><h1 >Please Enter This form</h1>
+                <form method="post" action="php\your_reservation.php" style="background-color: rgb(136,174,19); height: 450px;">
+            
+            <br><br><br>
+            <label> Enter your Email: :<br>
+            <input type="email" name="email" placeholder="email@***.com" maxlength="100" autocomplete="off" required ><br>
+            </label>
+                <label> Enter Your Phone  :<br>
+            <input type="tel" pattern="07\d{8}" placeholder="07********" name="number" autocomplete="off" required>
+            </label>
+            <br><br><br>
+            <input type="submit" value="Display Your Booking ">
+                </form></div></div><div class="f1"> </div></div>
+      <footer>
+ <div style="font-size:20px; ">
+     <p>powered by <br><a href="CV.html" style="text-decoration: none;">Mohammad kayyali</a></p> 
+          </div>
+        <div ><p><a href="https://www.instagram.com/naderhalkayyali_clinic/"><img src="imges/sss.png"></a><a href="https://www.facebook.com/Naderh-Nutrition-Clinic-100155538313802"><img src="imges/feacbook.jpg" width="25px"></a><br>&copy;2021 by <br>Dr: Naderh ALKayyali </p>
+          </div>
+        <div>
+            <form style="text-align: right" method="post" action="php\massege.php">
+            <input type="text" style="height: 18px;width: 35% " placeholder="Your Name" name="fname" required ><br>
+          <input type="email" style="height: 18px;width: 35% " placeholder="Email" name="email" required ><br>
+          <textarea cols="30" rows="3" placeholder="Massege" name="massege" required></textarea>     <br>
+      <input type="submit" value="send" style="width: 100px;">
+            
+            
+            </form>
+        </div>
+    </footer>
+    
+        </body>
+</html>
